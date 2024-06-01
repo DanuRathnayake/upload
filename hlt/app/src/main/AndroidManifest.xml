@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MainActivity2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".overx3"
+            android:exported="false" />
+        <activity
+            android:name=".overx2"
+            android:exported="false" />
+        <activity
+            android:name=".overx1"
+            android:exported="false" />
+        <activity
+            android:name=".normx3"
+            android:exported="false" />
+        <activity
+            android:name=".normx2"
+            android:exported="false" />
+        <activity
+            android:name=".normx1"
+            android:exported="false" />
+        <activity
+            android:name=".lowx3"
+            android:exported="false" />
+        <activity
+            android:name=".lowx2"
+            android:exported="false" />
+        <activity
+            android:name=".normex1"
+            android:exported="false" />
+        <activity
+            android:name=".overd"
+            android:exported="false" />
+        <activity
+            android:name=".ovd3"
+            android:exported="false" />
+        <activity
+            android:name=".ovd2"
+            android:exported="false" />
+        <activity
+            android:name=".ovd1"
+            android:exported="false" />
+        <activity
+            android:name=".overdi1"
+            android:exported="false" />
+        <activity
+            android:name=".normaldiet3"
+            android:exported="false" />
+        <activity
+            android:name=".normaldiet2"
+            android:exported="false" />
+        <activity
+            android:name=".normaldiet1"
+            android:exported="false" />
+        <activity
+            android:name=".dietlow3"
+            android:exported="false" />
+        <activity
+            android:name=".dietlow2"
+            android:exported="false" />
+        <activity
+            android:name=".dietlow1"
+            android:exported="false" />
+        <activity
+            android:name=".normald"
+            android:exported="false" />
+        <activity
+            android:name=".lowd"
+            android:exported="false" />
+        <activity
+            android:name=".overx"
+            android:exported="false" />
+        <activity
+            android:name=".normalx"
+            android:exported="false" />
+        <activity
+            android:name=".yu"
+            android:exported="false" />
+        <activity
+            android:name=".choice"
+            android:exported="false" />
+        <activity
+            android:name=".lowx"
+            android:exported="false" />
+        <activity
+            android:name=".testcal"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".lol"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
